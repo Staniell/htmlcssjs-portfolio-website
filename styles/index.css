@@ -1,0 +1,40 @@
+* {
+    font-family: Raleway;
+}
+html, body {
+    background-color: #333;
+    height: 100%;
+    margin: 0;
+  }
+
+
+
+.container{
+    /* grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr 1fr; 
+    column-gap: 10px;
+    row-gap: 15px; */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 50px);
+}
+
+.grid-item {
+    font-size: 25px;
+    color: #222;
+    border: 1px solid white;
+
+    background-color:whitesmoke;
+
+    font-weight:bolder;
+}
+
+.grid-item:hover{
+  background-color: #333;
+  color: aliceblue;
+  cursor: pointer;
+}
+
