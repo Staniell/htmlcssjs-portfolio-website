@@ -1,20 +1,28 @@
-document.getElementById("Profile").onclick = function () {
-    location.href = "profile.html";
-};
+// document.getElementById("Profile").onclick = function () {
+//     location.href = "profile.html";
+// };
 
-document.getElementById("Projects").onclick = function () {
-    location.href = "projects.html";
-};
+// document.getElementById("Projects").onclick = function () {
+//     location.href = "projects.html";
+// };
 
-document.getElementById("Contact").onclick = function () {
-    location.href = "contact.html";
-};
+// document.getElementById("Contact").onclick = function () {
+//     location.href = "contact.html";
+// };
+// $('.ads_sponsors').slick({
+//     autoplay: true,
+//     autoplaySpeed: 1000,
+//     slidesToShow: 4,
+//   slidesToScroll: 1,
+//   arrows: false
+// });
 
-
-$('.ads_sponsors').slick({
-    autoplay: true,
-    autoplaySpeed: 1000,
-    slidesToShow: 4,
-  slidesToScroll: 1,
-  arrows: false
-});
+window.addEventListener("scroll", function(event){
+    var scroll = this.scrollY;
+    console.log(scroll);
+    if(scroll>5){
+        this.document.body.style.backgroundColor="pink";
+    }
+    else
+        this.document.body.style.backgroundColor="black";
+})

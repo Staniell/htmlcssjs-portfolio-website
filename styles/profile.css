@@ -1,5 +1,5 @@
 .profile_info{
-  padding-top: 7%;
+    padding-top: 1%;
     color:aliceblue;
     text-align: center;
     font-size: 32px;
@@ -9,6 +9,7 @@
     justify-content: center;
     
     width: auto;
+    padding-bottom: 1%;
   }
   
   .profile_details{
