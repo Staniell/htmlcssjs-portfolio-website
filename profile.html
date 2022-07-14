@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Vanilla JS CSS HTML Portfolio Page</title>
+</head>
+
+<script src="index.js"></script>
+<body>
+    <div class="top-container" id="navbar">
+
+        <button class="grid-item" onclick="scrollToPosition('profile-tab')">Profile</button>
+        <button class="grid-item" onclick="scrollToPosition('project-tab')">Projects</button>
+        <button class="grid-item" onclick="scrollToPosition('contact-tab')">Contact</button>
+    </div>
+
+
+    <h1 class="header-section" id="profile-tab">PROFILE</h1>
+    <div class="profile_info">
+        <div class="profile_details">Gio Staniell E. Belolo</div>
+        <div class="profile_details">
+            <img src="images/profileIcon_snoo5e6ae5f1-83d7-4511-9fda-cc7945cc716f-headshot.png"/>
+                
+    <div class="container" id="second-tab">
+
+        <button class="grid-item" onclick="scrollToPosition('profile-tab')">Profile</button>
+        <button class="grid-item" onclick="scrollToPosition('project-tab')">Projects</button>
+        <button class="grid-item" onclick="scrollToPosition('contact-tab')">Contact</button>
+    </div>
+        </div>
+<!-- 
+        <div class="profile_details">
+            Age:20
+        </div> -->
+        <div class="profile_details">
+            Occupation: College Student(3rd Year)
+        </div>
+        <div class="profile_details">
+            Current School/Company: MCL
+        </div>
+        <div class="profile_details">
+            Skills: Web Development(FullStack),ReactJS/NodeJS, Database(Relational & 
+            Non-Relational), OOP, Git Version Control, Some Design Patterns
+        </div>
+
+    </div>
+    <!-- <div class="note">
+        **I suck at CSS and design :3
+    </div> -->
+
+    <h1 class="header-section" id="project-tab">PROJECTS</h1>
+
+    <div class="project-container">
+        <div class="project-list">
+            <div class="project-title">       
+                    <h1><a href="https://github.com/Staniell/Online-Book-Library-POS-System" target="_blank">E-Commerce Book Store</a></h1>
+            </div>
+
+            <iframe width="600" height="350" allow="fullscreen;" src="https://www.youtube.com/embed/QdsJBeSaRDQ">
+            </iframe>
+
+<ul class="project-points">
+        <li>
+    
+            A project made for 2nd year college subject Web Development. Written in 
+            C# ASP.Net Framework, Bootstrap CSS, and SQL Server for the Database.
+        </li>
+        <li>
+    
+                It's a simple E-Commerce website which has funcionalities for both user and web admin. 
+                Databound controls such as datalist and gridview were utilized properly in this website.
+        </li>
+        <li>
+            Complex SQL Queries were used such as showing the best selling books by author, genre, etc.
+        </li> 
+        <li>
+            To handle postbacks, AJAX control was implemented in most of the web pages.
+        </li>     
+        <li>
+            It was successfully hosted using smarterasp.net hosting service.
+        </li>
+</ul>
+
+        </div>
+        <div class="project-list" style="background-color: rgb(220, 212, 212);">
+            <div class="project-title">
+                <h1><a href="https://github.com/Staniell/Discord_Bot" target="_blank">Discord Bot Weekly Quiz Checker</a></h1>
+            </div>
+
+            <div class="project-images-container">
+                <div class="project-images">
+                        <h2>Weekly Messages for Challenges</h2>
+                     <img src="images/w1.png" width="150%" height="100%">
+                </div> 
+                <div class="project-images">
+                    <h2>Checking of Answers</h2>
+                    <img src="images/w2.png" width="100%" height="100%">
+               </div> 
+               <div class="project-images">
+                    <h2>Weekly Leaderboards</h2>
+                    <img src="images/w3.png" width="130%" height="100%">
+                </div> 
+            </div> 
+
+            
+                <ul class="project-points">
+                    <li>
+                        This is a bot dedicated for a programming server that I own.
+                    </li>
+                    <li>
+                        The scores for each member will be evaluated via the reactions that they receive.
+                    </li>
+                    <li>
+                        It will then be evaluated every week, giving them their respective ranks.
+                    </li>
+                    <li>
+                        The scores and submissions were all calculated via saving their IDs and no. of reactions on a JSON file.
+                    </li>
+                </ul>
+  
+
+        </div>
+
+        <div class="project-list">
+            <div class="project-title">
+                <h1><a>GUI Tkinter</a></h1>
+            </div>
+
+            <div class="project-images-container">
+                <div class="project-images">
+                    <h2>Layout</h2>
+                    <img src="images/tk1.png">
+                </div>
+                <div class="project-images">
+                    <h2>Adding Employee</h2>
+                    <img src="images/tk2.png">
+                </div>
+                <div class="project-images">
+                    <h2>Textfile Storage Layout</h2>
+                    <img src="images/tk3.png">
+                </div>
+                <div class="project-images">
+                    <h2>Employee Search</h2>
+                    <img src="images/tk4.png">
+                </div>
+                <div class="project-images">
+                    <h2>Deletion/Searching of Inexisting Number</h2>
+                    <img src="images/tk5.png">
+                </div>
+            </div>
+
+                    <ul class="project-points">
+                        <li>
+                            A GUI made in tkinter for a 1st year college subject exam.
+                        </li>
+                        <li>
+                            Creation of new entries increments the id which makes each entry unique.
+                        </li>
+                        <li>
+                            Able to do CRUD.
+                        </li>
+                    </ul>
+
+        </div>
+
+    </div>
+    <h1 class="header-section" id="contact-tab">Contact Details</h1>
+    <div class="contact-container">
+        <div class="contact-info">E-Mail</div>
+        <div class="contact-info">Email@gmail.com</div>
+        <div class="contact-info">Facebook</div>
+        <div class="contact-info">Facebook Acct</div>
+        <div class="contact-info">Youtube</div>
+        <div class="contact-info">YT acct</div>
+    </div>
+
+</body>
+
+
+</html>
