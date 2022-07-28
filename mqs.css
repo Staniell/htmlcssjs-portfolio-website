@@ -1,0 +1,64 @@
+@media screen and (max-width: 410px) {
+.profile_info{
+    width: 80%;
+}
+
+.profile_details{
+    font-size: 1.3rem;
+}
+.profile_details img{
+    width: 70%;
+}
+
+.maincontainer{
+    width: 87%;
+}
+
+
+.profile_tab{
+    width: auto;
+    font-size: 0.8rem;
+}
+
+.grid-item{
+    font-size: 1rem; 
+    color: #222;
+    border: 1px solid white;
+
+    background-color:whitesmoke;
+
+    font-weight:bolder;
+}
+
+.project-container{
+    width: 80%;
+}
+
+iframe{
+    width: 250px;
+    height: 200px;
+}
+
+.project-images>img{
+    width: 280px;
+    height: 250px;
+}
+
+.project-title>h1{
+    font-size: 1.3rem;
+}
+
+.project-images-container{
+    height: 400px;
+}
+
+.project-points{
+    margin: 0px;
+    padding-right: 15%;
+    font-size:0.8rem;
+}
+
+.header-section{
+    padding-right: 7%;
+}
+}
